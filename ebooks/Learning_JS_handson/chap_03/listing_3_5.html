@@ -43,6 +43,26 @@ and open the template in the editor.
                 //loop through elke persoon in de familylijst
                 for(i = 0; i < peopleCount; i= i + 1){
                     var person = people[i];
+                    
+                    //example if statement
+                    if(person === "tim") {
+                        alert(person + ", that's me. I was the " + i + "-nth person in the array");
+                    }
+                    
+                    //example switch statement
+                    
+                    switch(person) {
+                        case "tim":
+                            alert("this is me (switch)");
+                            break;
+                       
+                        case "christine":
+                            alert("My sister (switch)");
+                            break;
+                            
+                        default:
+                            alert(person);
+                    }
                 };
             }
         </script>
