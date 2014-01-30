@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+            /* JS is geenabled want anders zou er niks werken */
+            
+            /* kijk of HTML5 localStoraga ondersteund wordt */
+            if(typeof window.localStorage !== "undefined"){
+                //use localStorage
+                alert("localStorage is ondersteund!");
+            } else {
+                //use normal cookies
+                alert("localStorage is niet ondersteund, switching to cookies");
+            }
+        </script>
+    </body>
+</html>
