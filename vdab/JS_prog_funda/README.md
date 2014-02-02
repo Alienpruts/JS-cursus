@@ -1,1 +1,1 @@
-Dit is de JAVASCRIPT Programming Fundamentals cursus
+Dit is de JAVASCRIPT Programming Fundamentals cursus..
