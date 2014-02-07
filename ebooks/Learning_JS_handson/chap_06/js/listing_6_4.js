@@ -13,7 +13,6 @@ var addressBookMethods = {
         alert(addressBookMethods.sayHello('Hey There, I\'m called from within a method'));
     }
 }
-
 //call the function
 
 addressBookMethods.startle();
