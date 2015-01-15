@@ -1,2 +1,5 @@
-/vdab/JS_prog_funda/JS_prog_funda/nbproject/private/
-/ebooks/Learning_JS_handson/nbproject/private/
+vdab/JS_prog_funda/JS_prog_funda/nbproject/private/
+ebooks/Learning_JS_handson/nbproject/private/
+.idea
+#code examples cloned from github, so they have their own git repo
+ebooks/headfirstJSprogramming/Head-First-JavaScript-Programming
